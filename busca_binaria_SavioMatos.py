@@ -31,7 +31,7 @@ def busca_binaria_recursiva(L, x, ini, fim):
 
 
 # Parte 3
-# teste agora
+# teste
 
 # TESTES
 L = [3, 8, 15, 21, 30, 42, 57, 66, 74, 89]
