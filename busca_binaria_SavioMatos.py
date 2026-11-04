@@ -31,6 +31,9 @@ def busca_binaria_recursiva(L, x, ini, fim):
 
 
 # Parte 3
+# teste para commit aa
+#
+
 
 # TESTES
 L = [3, 8, 15, 21, 30, 42, 57, 66, 74, 89]
@@ -46,4 +49,4 @@ grande = list(range(0, 2_000_000, 2))
 assert busca_binaria_iterativa(grande, 1_999_998) == 999_999, "iterativa: lista grande"
 assert busca_binaria_recursiva(grande, 1_999_998, 0, len(grande) - 1) == 999_999, "recursiva: lista grande"
 assert busca_binaria_recursiva(grande, 7, 0, len(grande) - 1) == -1, "recursiva: ausente na lista grande"
-print("Todos os testes passaram!")
+print("Todos os testes passaram!")  
